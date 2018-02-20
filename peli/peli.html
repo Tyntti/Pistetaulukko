@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Peli</title>
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/game.js"></script>
+  </head>
+  <body onload="startGame()">
+    <br>
+    <button onmousedown="accelerate(-0.3)" onmouseup="accelerate(0.1)">Gas Gas Gas</button>
+    <button onclick="myGameArea.start();" type="button" name="button">Aloita peli</button>
+
+    <p>Käytä Kaasu ":D" nappia pysyäksesi ilmassa</p>
+    <p>Kuinka kauan voit olla ilmassa?</p>
+    <a href="https://steamcommunity.com/tradeoffer/new/?partner=133235058&token=8SY7m6UC">Deposit skins for greater chance to get a new highscore :-DDD</a> <br>
+    <a href="pistelista.html">Pistelista</a>
+
+    <div id="tallenna_pisteet">
+      <h1>Tallenna pisteet</h1>
+      <form action="tallennus.php" method="get">
+          <input type="text" name="nimi" placeholder="Syötä nimi">
+          <input type="hidden" name="pisteet" value="" id="piste_kentta">
+          <button type="submit">Tallenna</button>
+      </form>
+    </div>
+  </body>
+</html>

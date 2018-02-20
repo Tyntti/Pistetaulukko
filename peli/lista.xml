@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="highscore.xsl"?>
+<TAULUKKO>
+  <LISTA>
+    <PISTEET>60</PISTEET>
+    <NIMI>asd</NIMI>
+  </LISTA>
+  <LISTA>
+    <PISTEET>440</PISTEET>
+    <NIMI>ddd</NIMI>
+  </LISTA>
+</TAULUKKO>
